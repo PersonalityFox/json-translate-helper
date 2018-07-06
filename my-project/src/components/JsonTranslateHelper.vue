@@ -136,6 +136,7 @@ export default {
 			
 			
 			this.translateText += '}]';
+			window.scrollTo(0,document.body.scrollHeight);
 		},
 		downloadFiles: function() {
 			
