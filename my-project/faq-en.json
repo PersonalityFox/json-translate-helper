@@ -1,0 +1,305 @@
+[{
+  1: {
+    type: 'full',
+    title: 'What is VogoV and what is OGO coin?',
+    textShort:'<p>VogoV is a decentralized interactive adult film studio located in Los Angeles comprising VogoV.com and VogoV.studio, which is a platform that allows users to both vote on the production...</p>',
+    text: `<p>VogoV is a decentralized interactive adult film studio located in Los Angeles comprising VogoV.com and VogoV.studio, which is a platform that allows users to both vote on the production of adult videos as well as discuss the progress of the studio.</p>
+
+    <p>OGO coin is the service-use token of VogoV. The coin provides three benefits:</p>
+    <ol>
+    <li>Access to VogoV.com is three times cheaper using OGO coin when compared to using fiat currency. During the first five months after the token sale ends, a three-month membership will only cost two OGO coin tokens.</li>
+    <li>
+    A unified payment method within the adult entertainment industry based on partnerships and a liquidity pool which will accelerate token adoption and provide the following benefits to token holders:
+    <ol>
+    <li>Access to VogoV’s anchor partners like TeenMegaWorld.net and TmwVRnet.com is three times cheaper when compared to using fiat currency.</li>
+    <li>Discount on paid memberships at other partners.</li>
+    <li>Special exclusive offerings from us and our partners only for OGO coin.</li>
+    </ol>
+    </li>
+    <li>An opportunity to take part in the decision-making process regarding the production of adult videos on VogoV.studio platform. A token holder has a right to vote on scenarios, performers, and locations. Besides voting, the token holder can also participate in open discussions where one can give feedback on produced videos and share one’s thoughts and ideas.</li>
+    </ol>
+    <p>On top of OGO coin’s benefits, we are developing a cryptocurrency payment infrastructure called OgoShift for the whole adult industry in order to simplify and proliferate cryptocurrency usage beyond just OGO coin:</p>
+    <ol>
+    <li>he infrastructure is comprised of an exchange, a marketplace, and a merchant account. These are all interconnected with one another by our cryptocurrency wallet for a seamless user experience when using various cryptocurrencies as a payment method. The infrastructure is specifically tailored to become an important part of the $100 billion adult entertainment industry.</li>
+    <li>From a business perspective, ecosystem growth is supported by partnerships with top industry players. These players have already started the tokenization of their in-platform currencies.</li>
+    </ol>`
+  },
+  2: {
+    type: 'basic',
+    title: 'When can I use your tokens to buy something? Where will they be accepted?',
+    text: `<p>We have already developed and integrated our payment system for OGO coin acceptance into our partners’ websites.</p>
+
+    <p>You can buy subscriptions to VogoV.com, TeenMegaWorld.net and TmwVRnet.com immediately after you buy our tokens.</p>`
+  },
+  3: {
+    type: 'basic',
+    title: 'What is your token price?',
+    text: `<p>The token price is 0.002 ETH or 1 ETH for 500 OGO coins. At this moment, the token price of OGO coin in USD is equal to <span="usd-count">0.002</span>, according to ETH’s market price to USD on CoinMarketCap.</p>`
+  },
+  4: {
+    type: 'full',
+    title: 'Can I buy OGO coin with fiat currencies?',
+    textShort:'<p>This option is available only during the private sale and the second round of the crowdsale, which can be cancelled. In an effort to be as transparent as possible...</p>',
+    text: `<p id="test">This option is available only during the private sale and the second round of the crowdsale, which can be cancelled. In an effort to be as transparent as possible, we are holding our first crowdsale round on a smart contract, which can only accept ETH.</p>
+    <p>If you would like to buy ETH, here’s a short guide:</p>
+    <ol>
+    <li>
+    <p class="title">Register at an exchange</p>
+    <p class="text">Register at your chosen exchange by submitting a few personal details. Full identity checks are often included later in the process when a deposit or withdrawal is made.</p>
+    </li>
+    <li>
+    <p class="title">Complete KYC/identity checks</p>
+    <p class="text">Before or after depositing, or prior to withdrawal, exchanges must carry out Know Your Customer (KYC) and Anti-Money Laundering (AML) checks. Exchanges will require proof of address and photo identification to proceed.</p>
+    </li><li>
+    <p class="title">Choose a deposit method</p>
+    <p class="text">Each Ethereum exchange will offer their own banking methods. These are often a mix of bank wire transfers, SEPA, credit/debit card or PayPal payments. Each exchange will typically charge a fee for each deposit method; fee details are usually found in the footer of the exchange’s website.</p>
+    </li><li>
+    <p class="title">Make a deposit in US dollars, Euros, etc.</p>
+    <p class="text">Deposits will take from as little as 24 hours to several days to arrive in your exchange account. Deposit times will vary from exchange to exchange and the deposit method chosen.</p>
+    </li><li>
+    <p class="title">Buy Ether with your deposited funds</p>
+    <p class="text">Once your fiat currency has arrived in your exchange account, you can use this currency to purchase Ether. Beginner friendly platforms such as Coinbase have made this process very simple. Exchanges which make purchases easy are usually marked with a tick symbol under “Beginner Friendly”.</p>
+    </li><li>
+    <p class="title">Withdraw the Ether to your wallet</p>
+    <p class="text">Once you have bought Ether, remember to make sure the coins are sitting in your own personal wallet. This is relevant mainly when buying Ether from an exchange. If you leave your coins on the exchange and the exchange gets hacked or becomes insolvent, you may end up losing your coins.</p>
+    </li>
+    </ol>
+    <p class="attention"><span>NB!</span> Please don’t send your ETH from exchange wallets; if you do, you’re going to lose your ETH.<br /> Please first send your ETH to your personal wallet that’s compatible with unlisted ERC-20 tokens.</p>
+    <p class="attention"><span>NB!</span> If you are using any other wallet than MEW or Metamask, please make sure that your wallet<br /> is compatible with unlisted ERC-20 tokens.</p>
+    <p class="c">Read more about some other ways to buy ETH: <br /><a target="_blank" href="https://99bitcoins.com/guide-buy-ether-ethereum/">7 Simple ways to Buy Ethereum Instantly (Credit card, Wire or Cash) | 99Bitcoins</a></p>`
+  },
+  5: {
+    type: 'full',
+    title: 'What problems does VogoV solve?',
+    textShort:'<p>First, the adult entertainment industry is experiencing a kind of stagnation at this moment. What has been working up to now is becoming a thing of the past. Cryptocurrency acceptance as...</p>',
+    text: `<p>First, the adult entertainment industry is experiencing a kind of stagnation at this moment. What has been working up to now is becoming a thing of the past. Cryptocurrency acceptance as a payment method is only one facet of this. Cryptocurrency and the blockchain can be used for much more than just a payment method. We’re using cryptocurrency to change the way we interact with our community of fans.</p>
+    <ol>
+    <li>
+    The first step is to develop a decentralized interactive adult video studio where fans will be able to vote on what they really want to watch. First, they complete a survey which is used to create several scenarios based on voters’ preferences. After the survey, the scenarios are formed and voted on. At this stage, the voters determine the direction of the studio’s video production.
+    </li>
+    <li>
+    The second step is to implement an interactive business model, which will include us as the producers of adult videos, our membership subscribers and our voters. At this moment, it’s quite hard for fans of adult videos to find videos they really want since they’re faced with a ton of different videos. We plan to implement a smart chatbot designed with the help of a group of sexologists to help an individual find what they want. The chatbot will also gather depersonalized and completely anonymous data about what our watchers want. After it’s automatically analyzed and some tendencies are found, the voters can decide what content will be produced, taking into account the preferences and desires of the fans who are not voters. At this stage, the watchers (members/fans) determine the direction for the video production and the voters correct the direction.
+    </li>
+    </ol>
+    <p>Second, the problem of anonymous and secure payment methods with low fees is solved by OGO coin and cryptocurrencies in general. </p>
+    <p>Third, the absence of a unified adult-industry cryptocurrency supported and adopted by industry players who make a difference can be solved by OGO coin.</p>
+    <p>Fourth, OgoShift can address some of the problems the adult industry faces that have not yet been solved through the use of cryptocurrency. For example, it’s vital for adult businesses to accept recurring fixed-amount and pay-per-view payments. This is what OgoShift solves through the off-chain customer-to-merchant payments within the infrastructure and the on-chain payments through smart contracts using ETH.</p>
+    <p>Fifth, cryptocurrency can be difficult to understand and use for the average person. The marketplace in concert with the benefits provided by OGO coin can significantly help proliferate and simplify cryptocurrency usage. This will have a favorable impact on the cryptocurrency market cap as a whole since some percentage of the $100 billion industry will move into cryptocurrency.</p>
+    `
+  },
+  6: {
+    type: 'full',
+    title: 'What value can your porn-star advisors deliver to the project except public attention and marketing promotion?',
+    textShort:'<p>One of our co-founders made the strong point that a lot of ICOs just pay their advisors or work with them only for crowdfunding purposes. For these ICOs, an advisory board is like a label ...</p>',
+    text: `<p>One of our co-founders made the strong point that a lot of ICOs just pay their advisors or work with them only for crowdfunding purposes. For these ICOs, an advisory board is like a label or sign to show investors that the project looks OK and nothing more. To some extent, we view these types of arrangements with advisors as unethical. We support the practice where ICOs describe what advisors do for them. </p>
+    <p>Bridgette B advises us on how to attract more industry stars in order to create a pool of performers whom our voters can choose during the voting process.</p>
+    <p>Rocco Siffredi has vast industry experience and advises us on video production and studio management matters.</p>
+    <p>Our adult-industry advisors are not brand ambassadors. Our advisors will be our advisors regardless of our token sale.</p>
+    `
+  },
+  7: {
+    type: 'full',
+    title: 'Is there any lockup period?',
+    textShort: `<p>No, we don’t see any reason for doing this if we want to be honest with our community. We can pretend to lock up some tokens in a “Founder’s budget”, but this will not stop anyone from having access to the other budgets if they want to sell...</p>`,
+    text: `<p>No, we don’t see any reason for doing this if we want to be honest with our community. We can pretend to lock up some tokens in a “Founder’s budget”, but this will not stop anyone from having access to the other budgets if they want to sell some coins on an exchange. We believe in integrity and transparency so we are open with the community.</p>`
+  },
+  8: {
+    type: 'full',
+    title: 'Is IKAM Media Inc. the company holding the token sale?',
+    textShort: `<p>No, IKAM Media Inc. is the company that will produce videos for VogoV.com on demand. Since we refuse to complete KYC/AML verification, believing this is in the best interests of our token buyers, we have to resort to using a complicated...</p>`,
+    text: `<p>No, IKAM Media Inc. is the company that will produce videos for VogoV.com on demand. Since we refuse to complete KYC/AML verification, believing this is in the best interests of our token buyers, we have to resort to using a complicated corporate and banking structure that enables us to exchange ETH to fiat currency and to be compliant.</p>`
+  },
+  9: {
+    type: 'basic',
+    title: 'Can I make payments directly from an exchange?',
+    text: `<p>Please don’t buy OGO coin from exchange wallets;  if you do, you’re going to lose your ETH. Please first send your ETH to your personal wallet that’s compatible with unlisted ERC-20 tokens.</p>`
+  },
+  10: {
+    type: 'full',
+    title: 'Can you clarify how your bonuses work?',
+    textShort: `<p>If you had bought our tokens during the private sale, you would have gotten +50% in addition to the amount you had bought. If you buy 15,000 OGO..</p>`,
+    text: `<p>If you had bought our tokens during the private sale, you would have gotten +50% in addition to the amount you had bought.</p>
+    <p>If you buy 15,000 OGO during the pre-crowdsale, you will receive 20,000 OGO, since 15,000 + 30% = 20,000.</p>
+    <p>If you buy OGO coins during the crowdsale, your bonus will depend on the amount of OGO coin tokens that have already been sold. For example, if 6,500,000 OGO were sold, that means the second bonus section is active. In the second bonus, you get a 15% bonus. So, if you buy 10,000 OGO, you will receive 11,500 OGO, since 10,000 + 15% = 11,500.</p>
+    `
+  },
+  11: {
+    type: 'basic',
+    title: 'After I buy your tokens, where can I store them? Any suggestions?',
+    text: `<p>You can use any ERC20 compatible Ethereum wallet such as MetaMask, MyEtherWallet, Ethereum Wallet, Mist, Eidoo, Parity, imToken, Trust, Cipher and more.</p>`
+  },
+  12: {
+    type: 'full',
+    title: 'When will OGO coin be listed on exchanges? What exchanges?',
+    textShort: `<p>OGO coin will be listed within three months after the first round of the crowdsale ends and within two weeks after the second round. We have already concluded an...</p>`,
+    text: `<p>OGO coin will be listed within three months after the first round of the crowdsale ends and within two weeks after the second round. We have already concluded an arrangement with a crypto asset exchange where our token may be traded. However, we are still considering other exchange listing offers we receive. The name/names of the exchange/exchanges will be announced during the crowdsale or earlier.</p>`
+  },
+  13: {
+    type: 'basic',
+    title: 'Why will exchange listings happen within three months after the crowdsale?',
+    text: `<p>It’s needed to increase the rate of OGO coin acceptance on various adult entertainment websites, which will increase demand.</p>`
+  },
+  14: {
+    type: 'basic',
+    title: 'I can’t find your bounty campaign. Do you have one?',
+    text: `<p>No, we don’t have one at this moment. However, we may launch a bounty campaign. If we launch it, the bounty campaign budget will be paid from the ecosystem development budget</p>`
+  },
+  15: {
+    type: 'basic',
+    title: 'Do you plan any airdrops?',
+    text: `<p>We are considering the possibility of an airdroз. It is going to happen in August 2018.</p>`
+  },
+  16: {
+    type: 'full',
+    title: 'How can I become waitlisted?',
+    textShort: `<p>The following steps will occur during the lottery participation process:...</p>`,
+    text: `<p>The following steps will occur during the lottery participation process:</p>
+    <ol>
+    <li>A potential token buyer gets waitlisted by submitting a waitlist request on the website.</li>
+    <li>Three weeks before both the pre-crowdsale and the first crowdsale round start, every waitlisted potential token buyer receives an email inviting them to enter the wallet address from which they are going to send ETH to the smart contract address for either the pre-crowdsale or the first round of the crowdsale. After a potential token holder enters the address, the potential token holder will get an ID. This address registration will continue for four weeks once it starts.</li>
+    <li>After the pre-crowdsale and the first crowdsale round end, we will compare the wallet addresses from which OGO coins were bought and the registered addresses. As a result of the comparison, we will determine who the real token buyers are in our wait list.</li>
+    <li>Every waitlisted token buyer that actually buys our token receives an email confirming that their ID is participating in the lottery to win a trip to LA for our exclusive party. The waitlisted potential token buyers who didn’t become real token buyers will also receive an email notifying them that their IDs won’t be participating in the lottery. If something goes wrong and we make a mistake, our support will correct it.</li>
+    <li>All the participating IDs will be published, so that every waitlisted token buyer can make sure that their ID is participating in the lottery. Within three weeks after the IDs are published, we will use an independent and trustworthy service to determine the winners. We will do our best to make this process as transparent and fair as possible.</li>
+    </ol>
+    <p>If a lottery winner doesn’t reply to our follow-up emails within 14 days after the winners are announced, the winner’s ID will be invalidated and a new winner chosen. If a winner replies to our email, the winner needs to conform to our information policies, which are similar to Know Your Customer regulations. We need this information to help us prepare accommodation, buy flight tickets and help with getting a US visa, if required. If a winner refuses to provide such data, the winner’s ID will be invalidated and a new winner will be chosen.</p>
+    <p>The lottery covers the pre-crowdsale and first round crowdsale participants.</p>
+    <p>Only token buyers can win in the lottery.</p>
+    `
+  },
+  17: {
+    type: 'full',
+    title: 'What is gonzo style in porn?',
+    textShort: `<p>There is no sense of telling you a lot about that because you need to see it. You can find gonzo adult videos on VogoV.com or on some porn tubes in...</p>`,
+    text: `<p>There is no sense of telling you a lot about that because you need to see it. You can find gonzo adult videos on VogoV.com or on some porn tubes in the gonzo categories.</p>
+    <p>In a nutshell, Gonzo pornography takes its cues from gonzo journalism. In gonzo journalism, the reporter does not pretend to be outside of the events being reported and instead is an integral part of them. The same philosophy is used in gonzo pornography, which places the viewer into the actual film. In gonzo pronography, often the actors will not only perform but also film the action. The filmed action will include a lot more close-ups and won’t have the distance between the action and camera that can be seen in traditional pornography.</p>
+    `
+  },
+  18: {
+    type: 'full',
+    title: 'I don’t know anything about cryptocurrency, but I want to get a discounted price for TMW etc. What should I do?',
+    textShort: '<p>If you would like to enjoy a discount on membership, you should buy OGO coin tokens. But before you buy OGO coin, you have to buy ETH. You can read more about some...</p>',
+    text: `<p>If you would like to enjoy a discount on membership, you should buy OGO coin tokens. But before you buy OGO coin, you have to buy ETH. You can read more about some ways to buy ETH here: <a target="_blank" href="https://99bitcoins.com/guide-buy-ether-ethereum/">7 Simple ways to Buy Ethereum Instantly (Credit card, Wire or Cash) | 99Bitcoins</a></p>
+    <p>We will publish a “how to buy” article before the pre-crowdsale starts. If you would like to gain insight into how the process works, please contact us at <a href="mailto:constantine@vogov.io">constantine@vogov.io</a>. </p>
+    `
+  },
+  19: {
+    type: 'full',
+    title: 'Will you sell OGO coin directly?',
+    textShort: '<p>We will only sell OGO coin during our private sale, pre-crowdsale and crowdsale rounds. After these token sales, we won’t sell OGO coin directly. The secondary market will be...</p>',
+    text: `<p>We will only sell OGO coin during our private sale, pre-crowdsale and crowdsale rounds. After these token sales, we won’t sell OGO coin directly. The secondary market will be the only place where OGO coin is traded.</p>
+    <p>The pre-crowdsale and the first crowdsale round will be held through the smart contract.</p>
+    `,
+  },
+  20: {
+    type: 'full',
+    title: 'How can I buy OGO coin?',
+    textShort: '<p><p>Before you buy OGO coin, you have to buy ETH. You can read more about some ways to buy ETH here: <a  target="_blank" href="https://99bitcoins.com/guide-buy-ether-ethereum/">7 Simple ways to Buy Ethereum Instantly (Credit card, Wire or Cash) | 99Bitcoins</a>. If you have ETH...</p>',
+    text: `<p>Before you buy OGO coin, you have to buy ETH. You can read more about some ways to buy ETH here: <a  target="_blank" href="https://99bitcoins.com/guide-buy-ether-ethereum/">7 Simple ways to Buy Ethereum Instantly (Credit card, Wire or Cash) | 99Bitcoins</a>. If you have ETH, we will publish a guide on how you can buy OGO coin.</p>`
+  },
+  21: {
+    type: 'full',
+    title: 'Why didn’t develop your own blockchain? Why did you make it on Ethereum?',
+    textShort:'<p>Originally, we were planning on developing our own blockchain, but we decided to use the Ethereum blockchain (ERC20 token standard) to issue OGO coin. Since OGO coin is an ERC20 token...</p>',
+    text: `<p>Originally, we were planning on developing our own blockchain, but we decided to use the Ethereum blockchain (ERC20 token standard) to issue OGO coin. Since OGO coin is an ERC20 token, it can be kept in a variety of cryptocurrency wallets that support the ERC20 standard. This will make it easier to use and help it gain acceptance within the cryptocurrency community.</p>
+    <p>We have started researching new concepts that would make a huge difference if applied to our own blockchain. We technically conceptualize a possible blockchain in the next generation, but it requires a lot of time and proofs of concept. If we do develop our own blockchain, its release will happen in 1.5 years, according to our time estimate. If we do release it, its cryptocurrency will be offered at a ratio of 3:1 to OGO coins. However, this is just our R&D initiative that may be dismissed.</p>
+    `
+  },
+  22: {
+    type: 'full',
+    title: 'Zcash, Monero, and Dash give much more anonymity than Ethereum. Why do you use Ethereum blockchain?',
+    textShort: '<p>The Ethereum blockchain gives our subscribers the level of anonymity and security that they want. For most of our users, it doesn’t matter...</p>',
+    text: `<p>The Ethereum blockchain gives our subscribers the level of anonymity and security that they want. For most of our users, it doesn’t matter whether they use Bitcoin, Monero or Zcash to pay anonymously. They are not looking for full anonymity; therefore, the level of anonymity which Ethereum offers completely satisfies our subscribers’ need.</p>`
+  },
+  23: {
+    type: 'basic',
+    title: 'Will I be able to vote for not only actors and actresses, but also categories like MILFs, DP, oral and anal sex…?',
+    text: '<p>Yes, in some cases. For example, if you vote for a mature actress, it may be classified in the MILF category by default. If you vote for a threesome, you will also be able to vote for Double Penetration.</p>'
+  },
+  24: {
+    type: 'full',
+    title: 'Is there an MVP of voting platform?',
+    textShort: '<p>Although the voting platform is still in progress, we have already developed an MVP without reporting and open-discussion features. We will release it before the pre-crowdsale...</p>',
+    text: `<p>Although the voting platform is still in progress, we have already developed an MVP without reporting and open-discussion features. We will release it before the pre-crowdsale because it’s a great PR opportunity for us. We will let our community take part in the decision-making process of VogoV’s video production even before the crowdsale starts. When the voting ends, the video will be shot and edited within several months.</p>`
+  },
+  25: {
+    type: 'full',
+    title: 'Why are you developing a voting platform that’s not built on a smart contract? You claim it has to be decentralized.',
+    textShort: '<p>If it were built on smart contracts, it would have been handicapped. Any transaction would require GAS, and would need to be two transactions</p>',
+    text: `<p>If it were built on smart contracts, it would have been handicapped. Any transaction would require GAS, and would need to be two transactions: a vote sending OGO coin to a smart contract address and OGO coin being sent back to the voter. Plus such a dApp would have several critical bottlenecks. In other words, we would have sacrificed convenience and common sense in order to proudly claim that we have developed a dApp.</p>`
+  },
+  26: {
+    type: 'full',
+    title: 'What about exchange fees?',
+    textShort: '<p>If it were built on smart contracts, it would have been handicapped. Any transaction would require GAS, and would need to be two transactions</p>',
+    text: `<p>At first, the exchange will be integrated with another exchange that has a huge trade volume. Therefore, the exchange fees will depend on the fees of the other exchange. However, thanks to our business arrangement, we’re able to offer fees that are lower than the fees that are charged on our partner’s exchange. After our exchange becomes an “adult”, we’ll charge the lowest possible fees that still enable us to continue development of the exchange. The exchange is only a part of our business and mainly serves purposes other than just profit generation. The exchange is a complement to our business model, not the whole business model itself.</p>`
+  },
+  27: {
+    type: 'full',
+    title: 'I don’t understand why your exchange is needed. There are too many exchanges.',
+    textShort: '<p>If it were built on smart contracts, it would have been handicapped. Any transaction would require GAS, and would need to be two transactions</p>',
+    text: `<p>If we were about to bring just another exchange onto the market without having some particular reason or tech breakthrough behind it, it would definitely make no sense or any difference. We see the pain point specifically within the adult entertainment industry from a business perspective as well as from a customer perspective. We did research on the necessity of the exchange and determined that an exchange needed to be tailored specifically to the adult industry to satisfy its specific needs. Also, the exchange is part of our infrastructure and is being developed to enhance the value that OgoShift will deliver to our token buyers and to the adult entertainment industry as a whole.</p>`
+  },
+  28: {
+    type: 'basic',
+    title: 'Will you start developing the exchange only after the ICO? Will it be built from scratch or will it be bought or licensed?',
+    text: '<p>It’s being developed from the ground up. We have already started developing the exchange, but it’s going to be released after our crowdsale.</p>'
+  },
+  29: {
+    type: 'full',
+    title: 'What cryptocurrencies will be traded?',
+    textShort: '<p>We’ll do our best to list all adult-industry-related cryptocurrencies like BTC, BCH, ETH, ETC, ZEC, XMR, DASH, SPANK,...</p>',
+    text: `<p>We’ll do our best to list all adult-industry-related cryptocurrencies like BTC, BCH, ETH, ETC, ZEC, XMR, DASH, SPANK, SXC, TIT, OKO, BUNNY, VIT, OGO, XVG, POT and others. We plan on becoming the place where most of the entertainment-related tokens can be traded.</p>`
+  },
+  30: {
+    type: 'full',
+    title: 'How many porn businesses use cryptocurrency? Did you do any market research?',
+    textShort: '<p>According to our ongoing market research, we have already found that more than 470 established porn websites, 50 webcams, and 35 sex shops...</p>',
+    text: `<p>According to our ongoing market research, we have already found that more than 470 established porn websites, 50 webcams, and 35 sex shops around the globe accept cryptocurrencies, although they mainly only accept Bitcoin. To give a sense of scale, these porn websites get over 4.6 billion visits a month compared to the 2.4 billion visits monthly to PornHub. However, cryptocurrency acceptance and usage is still very low in comparison to peer-to-business payments with fiat currencies. We’re going to solve in order to simplify and proliferate cryptocurrency usage.</p>`
+  },
+  31: {
+    type: 'basic',
+    title: 'What do you mean by the interconnected wallet?',
+    text: '<p>You will be able to switch from the marketplace to the exchange or vice versa in two clicks. However, it would be more correct to say that it’s an interconnected account rather than a wallet.</p>'
+  },
+  32: {
+    type: 'full',
+    title: 'How are you guys different from StacyQ, BunnyToken, Love Network or SpankChain?',
+    textShort: '<p>First, our token gives triple value:...</p>',
+    text: `<p>First, our token gives triple value: </p>
+    <ol>
+    <li>cryptocurrency as a secure and anonymous payment method backed by our real and valuable partnerships</li>
+    <li>a right to vote for the adult content produced by VogoV.com</li>
+    <li>OGO coin gives a 3x discount on VogoV.com, TeenMegaWorld.net, and TMWVRNET.com, all of which have over 5,000 exclusive adult videos</li>
+    </ol>
+    <p>Second, OGO coin is supported by industry leaders like Rocco Siffredi and Bridgette B who are our anchor advisors. StacyQ, BunnyToken, Love Network and SpankChain don't have as much industry support.</p>
+    <p>Third, we're well-known in the industry and have a solid reputation thanks to our founder, Markus Dupree and our partners like TeenMegaWorld with their 15 years of experience in the adult entertainment industry.</p>
+    <p>The fourth point is that for our token, OGO coin, we're developing an ecosystem comprised of an adult-industry exchange and marketplace in order to help the adult entertainment industry as a whole move into crypto.</p>
+    <p>The fifth point is that we have already developed our service/product and you can try it on VogoV.com. When you buy our tokens during our public sales, you can enjoy their benefits immediately on VogoV, TeenMegaWorld.net, and TmwVRnet.com.</p>
+
+    `
+  },
+  33: {
+    type: 'full',
+    title: 'What is the liquidity pool? How does it work together with partnerships?',
+    textShort: '<p>In our case, the liquidity pool is US$3,000,000. This money is devoted to OGO coin business-use proliferation. This means that businesses...</p>',
+    text: '<p>In our case, the liquidity pool is US$3,000,000. This money is devoted to OGO coin business-use proliferation. This means that businesses offering their services or goods for our tokens will be able to exchange them for USD by contacting us. The liquidity pool is designed to enhance OGO coin’s value as a payment method.</p>'
+  },
+  34: {
+    type: 'full',
+    title: 'Will you sell OGO coins directly?',
+    textShort: '<p>After the crowdsale, we won’t sell our tokens directly. Instead they will only be available on the secondary market. During the pre-crowdsale and crowdsale...</p>',
+    text: `<p>After the crowdsale, we won’t sell our tokens directly. Instead they will only be available on the secondary market. During the pre-crowdsale and crowdsale, our tokens are sold through a smart contract. We only sell our tokens directly to the buyers during the private sale.</p>`
+  },
+  35: {
+    type: 'full',
+    title: 'In what circumstances will OGO coin be burned?',
+    textShort: '<p>OGO coin will be burned in three cases. The first instance is if we don’t reach the Hard Cap, and all unsold tokens are to be burned. The burn...</p>',
+    text: `<p>OGO coin will be burned in three cases. The first instance is if we don’t reach the Hard Cap, and all unsold tokens are to be burned. The burn mechanism also comes into effect if the market token price is lower than its initial crowdsale price. The initial crowdsale price of OGO coin is an average price of 0.002 ETH in USD during the pre-crowdsale and crowdsale period. For example, if 0.002 ETH cost US$1 during the pre-crowdsale and US$2 during the crowdsale, the crowdsale price is US$1.5.</p>
+    <p>If the second crowdsale round is renounced, 36,250,000 OGO coin will be burned. The amount burned will equal the whole amount of OGO coin planned to be sold during the second crowdsale round as well as half of the OGO coin budgeted for ecosystem development, the team, the founders, and the company.</p>`
+  },
+  36: {
+    type: 'basic',
+    title: 'What is the maximum token supply?',
+    text: '<p>The maximum token supply is 75,000,000 OGO coins. But if the second crowdsale round is renounced, 36,250,000 OGO coin will be burned. The amount burned will equal the whole amount of OGO coin planned to be sold during the second crowdsale round as well as half of the OGO coin budgeted for ecosystem development, the team, the founders, and the company.</p>'
+  }
+}]
