@@ -11,25 +11,26 @@
 						  <label class="file-label">
 							  <input class="file-input" type="file" name="resume" accept=".json"  @change="processFile($event)">
 							  <span class="file-cta">
-				      <span class="file-icon">
-				        <i class="fas fa-upload"></i>
-				      </span>
-				      <span class="file-label">
-				        Choose a file…
-				      </span>
-				    </span>
+							      <span class="file-icon">
+							        <i class="fas fa-upload"></i>
+							      </span>
+							      <span class="file-label">
+							        Choose a file…
+							      </span>
+							    </span>
 						  </label>
+						
+						  <button type="button" class="button is-success is-outlined" @click="createOriginalData">Create</button>
 					  </div>
 
-					  <button type="button" class="button is-success is-outlined" @click="getLanEnData">LOAD 'lang-en' FROM SERVER</button>
-					  <button type="button" class="button is-success is-outlined" @click="getFaqEnData">LOAD 'faq-en' FROM SERVER</button>
-					  
-					  <button type="button" class="button is-success is-outlined" @click="createOriginalData">Create</button>
+					  <button type="button" class="button is-info is-outlined" @click="getLanEnData">LOAD 'lang-en' FROM SERVER</button>
+					  <button type="button" class="button is-info is-outlined" @click="getFaqEnData">LOAD 'faq-en' FROM SERVER</button>
 					  
 					  <div v-if="typeFile !== ''">You uploaded <b>{{typeFile}}</b> original file</div>
 				  </div>
 				  <div class="column">
-					  <button type="button" class="button is-success is-outlined" @click="downloadFiles">Download result</button>
+					  <button type="button" class="button is-danger is-disabled"  @click="downloadFiles">Download result </button>
+					  <p class="help is-danger">work incorrect!</p>
 				  </div>
 				  <div class="column">
 					  <button type="button" class="button is-outlined" @click="createJsonText">Create JSON Code</button>
@@ -92,6 +93,8 @@
 </template>
 
 <script>
+	const FAQ = 'FAQ';
+	
 const faqUrlFile = [{
     1: {
         type: 'full',
@@ -626,17 +629,47 @@ export default {
 			
 			var i = 0;
 			var text;
+			var title;
+			var shortText;
+			var tr;
 			var count = Object.keys(this.originalText).length;
 			for ( var key in this.originalText )
 			{
-				text = '';
-				text = this.tableBody.querySelector( 'tr.i'+i+' textarea' ).value;
-				if ( text !== '' ) console.log(text);
-				this.translateText += '"'+key+'": "'+text;
-				
-				if ( i+1 < count  )
+				if ( this.typeFile === 'lang' )
 				{
-					this.translateText+='",\n';
+					text = '';
+					text = this.tableBody.querySelector( 'tr.i'+i+' textarea' ).value;
+					
+					this.translateText += '"'+key+'": "'+text + '"';
+					
+					if ( i+1 < count  )
+					{
+						this.translateText+=',\n';
+					}
+				}
+				else if ( this.typeFile === 'faq' )
+				{
+					tr = this.tableBody.querySelector( 'tr.i'+i);
+					text = '';
+					title = '';
+					shortText = '';
+					title = tr.querySelector( 'tr.i'+i+' textarea.title' ).value;
+					text = tr.querySelector( 'tr.i'+i+' textarea.text' ).value;
+					
+					if ( tr.getAttribute( 'data-type' ) === 'full' ) {
+						shortText = this.tableBody.querySelector( 'tr.i'+i+' textarea.text-short' ).value;
+						
+						this.translateText += '"'+key+'": { "type": "full", "title": "' + title + '", "text": "'+text + '", "textShort":"'+shortText+'"}';
+					}
+					else
+					{
+						this.translateText += '"'+key+'": { "type": "basic", "title": "' + title + '", "text": "'+text+'"}';
+					}
+					
+					if ( i+1 < count  )
+					{
+						this.translateText+=',\n';
+					}
 				}
 				
 				i++;
@@ -652,12 +685,50 @@ export default {
 			
 			var i = 0;
 			var text;
+			var title;
+			var shortText;
+			var tr;
+			var count = Object.keys(this.originalText).length;
+			
 			for ( var key in this.originalText )
 			{
 				text = '';
 				text = this.tableBody.querySelector( 'tr.i'+i+' textarea' ).value;
-				if ( text !== '' ) console.log(text);
-				this.translateText += '"'+key+'": "'+text+'",';
+				
+				if ( this.typeFile === 'lang' )
+				{
+					this.translateText += '"'+key+'": "'+text + '"';
+					
+					if ( i+1 < count  )
+					{
+						this.translateText+=',\n';
+					}
+				}
+				else if ( this.typeFile === 'faq' )
+				{
+					tr = this.tableBody.querySelector( 'tr.i'+i);
+					text = '';
+					title = '';
+					shortText = '';
+					title = tr.querySelector( 'tr.i'+i+' textarea.title' ).value;
+					text = tr.querySelector( 'tr.i'+i+' textarea.text' ).value;
+					
+					if ( tr.getAttribute( 'data-type' ) === 'full' ) {
+						shortText = this.tableBody.querySelector( 'tr.i'+i+' textarea.text-short' ).value;
+						
+						this.translateText += '"'+key+'": { "type": "full", "title": "' + title + '", "text": "'+text + '", "textShort":"'+shortText+'"}';
+					}
+					else
+					{
+						this.translateText += '"'+key+'": { "type": "basic", "title": "' + title + '", "text": "'+text+'"}';
+					}
+					
+					if ( i+1 < count  )
+					{
+						this.translateText+=',\n';
+					}
+				}
+				
 				i++;
 			}
 			
@@ -800,6 +871,7 @@ export default {
 
                 i++;
             }
+	        this.originalText = this.langFromFile;
     	},
         getFaqEnData: function () {
             this.typeFile = 'faq';
@@ -807,23 +879,131 @@ export default {
             var i = 0;
             for ( var key in this.faqFromFile )
             {
-                console.log(this.faqFromFile[key].type);
+                //console.log(this.faqFromFile[key].type);
                 if ( this.faqFromFile[key].type === 'basic' )
 				{
-					//title
-                    //this.insertElementsFaq(key, this.faqFromFile[key].title, this.faqFromFile[key].text, i);
-                    //this.createElementsFaq(key, this.faqFromFile[key].title, this.faqFromFile[key].text, i);
-					//text
-                    //this.insertElementsLang(key, this.faqFromFile[key].text,i);
-                    //this.createElementsLang(key, this.faqFromFile[key].text,i);
+                    this.insertElementsFaqBasic(key, this.faqFromFile[key].title, this.faqFromFile[key].text, i);
 				}
+				else if ( this.faqFromFile[key].type === 'full' )
+                {
+                	console.log(this.faqFromFile[key]);
+	                this.insertElementsFaqFaq(key, this.faqFromFile[key].title, this.faqFromFile[key].textShort, this.faqFromFile[key].text, i);
+                }
                 //this.insertElementsLang(key, this.faqFromFile[key],i);
                 //this.createElementsLang(key, this.faqFromFile[key],i);
 
                 i++;
             }
-        }
-		
+	        this.originalText = this.faqFromFile;
+        },
+		insertElementsFaqBasic: function( number, title, text, index )
+		{
+			let parentTREl = document.createElement( 'tr' );
+			let textEl = document.createElement( 'td' );
+			let textE2 = document.createElement( 'td' );
+			let textE3 = document.createElement( 'td' );
+			let textareaTitle = document.createElement( 'textarea' );
+			let textareaText = document.createElement( 'textarea' );
+			let resultTitle = document.createElement( 'div' );
+			let resultText = document.createElement( 'div' );
+			
+			parentTREl.classList.add('i'+index);
+			parentTREl.setAttribute('data-type', 'basic');
+			
+			textEl.classList.add( FAQ );
+			textEl.innerHTML = '<div class="title">'+title+'</div><div class="text"></div>';
+			
+			textEl.querySelector( 'div.text' ).innerText = text;
+			
+			textE2.classList.add('t');
+			textE3.classList.add('r');
+			
+			textareaTitle.addEventListener( 'input', (e) => {
+				resultTitle.innerHTML = e.currentTarget.value;
+			});
+			textareaText.addEventListener( 'input', (e) => {
+				resultText.innerHTML = e.currentTarget.value;
+			});
+			
+			textareaTitle.className = 'textarea title';
+			textareaText.className = 'textarea text';
+			resultTitle.className = ' is-small title';
+			resultText.className = ' is-small text';
+			
+			textareaTitle.placeholder = 'title';
+			textareaText.placeholder = 'text';
+			
+			textE2.appendChild( textareaTitle );
+			textE2.appendChild( textareaText );
+			textE3.appendChild( resultTitle );
+			textE3.appendChild( resultText );
+			
+			parentTREl.appendChild( textEl );
+			parentTREl.appendChild( textE2 );
+			parentTREl.appendChild( textE3 );
+			
+			this.tableBody.appendChild( parentTREl );
+		},
+		insertElementsFaqFaq: function( number, title, textShort, text, index )
+		{
+			let parentTREl = document.createElement( 'tr' );
+			let textEl = document.createElement( 'td' );
+			let textE2 = document.createElement( 'td' );
+			let textE3 = document.createElement( 'td' );
+			let textareaTitle = document.createElement( 'textarea' );
+			let textareaText = document.createElement( 'textarea' );
+			let textareaTextShort = document.createElement( 'textarea' );
+			let resultTitle = document.createElement( 'div' );
+			let resultText = document.createElement( 'div' );
+			let resultTextShort = document.createElement( 'div' );
+			
+			parentTREl.classList.add('i'+index);
+			parentTREl.setAttribute('data-type', 'full');
+			
+			textEl.classList.add( FAQ );
+			textEl.innerHTML = '<div class="title">'+title+'</div><div class="text-short"></div><div class="text"></div>';
+			
+			textEl.querySelector( 'div.text' ).innerText = text;
+			textEl.querySelector( 'div.text-short' ).innerText = textShort;
+			
+			textE2.classList.add('t');
+			textE3.classList.add('r');
+			
+			textareaTitle.addEventListener( 'input', (e) => {
+				resultTitle.innerHTML = e.currentTarget.value;
+			});
+			textareaText.addEventListener( 'input', (e) => {
+				resultText.innerHTML = e.currentTarget.value;
+			});
+			textareaTextShort.addEventListener( 'input', (e) => {
+				resultTextShort.innerHTML = e.currentTarget.value;
+			});
+			
+			textareaTitle.className = 'textarea title';
+			textareaText.className = 'textarea text';
+			textareaTextShort.className = 'textarea text-short';
+			
+			resultTitle.className = 'is-small title';
+			resultText.className = 'is-small text';
+			resultTextShort.className = 'is-small text-short';
+			
+			textareaTitle.placeholder = 'title';
+			textareaText.placeholder = 'text';
+			textareaTextShort.placeholder = 'text-short';
+			
+			textE2.appendChild( textareaTitle );
+			textE2.appendChild( textareaTextShort );
+			textE2.appendChild( textareaText );
+			textE3.appendChild( resultTitle );
+			textE3.appendChild( resultTextShort );
+			textE3.appendChild( resultText );
+			
+			parentTREl.appendChild( textEl );
+			parentTREl.appendChild( textE2 );
+			parentTREl.appendChild( textE3 );
+			
+			this.tableBody.appendChild( parentTREl );
+		}
 	},
     created: function () {
         this.langFromFile = langUrlFile[0];
@@ -837,8 +1017,79 @@ export default {
 	body{
 		font-family: -apple-system, "Helvetica Neue", "Helvetica", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", SimSun, sans-serif;
 	}
-	.bold
-	{
+	.bold {
 		font-weight: bold;
+	}
+	.FAQ .title,
+	.FAQ .text {
+		font-size: 14px;
+	}
+	.FAQ .text {
+		font-weight: bold;
+	}
+	.FAQ .text-short {
+		font-weight: bold;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px dashed grey;
+	}
+	.FAQ .text:before,
+	.FAQ .text-short:before,
+	.FAQ .title:before,
+	td.r .is-small.title:before,
+	td.r .is-small.text:before,
+	td.r .is-small.text-short:before{
+		position: relative;
+		display: inline-block;
+		font-size: 14px;
+		color: grey;
+		content:'Title: ';
+		font-weight: 300;
+		margin-right: 5px;
+	}
+	.FAQ .text:before,
+	td.r .is-small.text:before
+	{
+		content:'Text: ';
+	}
+	.FAQ .text-short:before,
+	td.r .is-small.text-short:before{
+		content:'Text-short: ';
+	}
+	.textarea.title,
+	.textarea.text,
+	.textarea.short-text{
+		font-size: 14px;
+	}
+	
+	td.r .is-small.title{
+		font-size: 16px;
+	}
+	td.r .is-small.text {
+		font-size: 14px;
+	}
+	td.r .is-small.text-short {
+		font-size: 14px;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px dashed grey;
+	}
+	td.r .is-small.text br:after,
+	td.r .is-small.text p:after {
+		position: relative;
+		display: block;
+		content:'<--- wrap to new line --->';
+		color: lightgrey;
+	}
+	td.r .is-small.text ol li:after,
+	td.r .is-small.text ul li:after {
+		position: relative;
+		display: block;
+		content:'<--- new line --->';
+		color: lightgrey;
+	}
+	td.r .is-small.text ol,
+	td.r .is-small.text ul{
+		padding-left: 20px;
 	}
 </style>
